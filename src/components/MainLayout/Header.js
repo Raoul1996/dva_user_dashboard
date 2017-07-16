@@ -20,7 +20,7 @@ function Header({location}) {
         <Link to="/page-you-dont-know"><Icon type="frown-circle"/>404</Link>
       </Menu.Item>
       <Menu.Item key="/antd">
-        <a href="https://github.com/dva.js/dva">dva</a>
+        <a href="https://github.com/dvajs/dva">dva</a>
       </Menu.Item>
     </Menu>
   )

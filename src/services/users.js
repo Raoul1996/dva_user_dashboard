@@ -6,7 +6,7 @@ import {PAGE_SIZE} from '../constants'
 export function fetch({page}) {
   return request(`api/users?_page=${page}&limit=${PAGE_SIZE}`)
 }
-export function remove() {
+export function remove(id) {
   return request(`/api/users/${id}`, {
     method: 'DELETE'
   })
